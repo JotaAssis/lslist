@@ -17,22 +17,6 @@ public class GameMinDTO {
         return id;
     }
 
-    public String getTitle() {
-        return title;
-    }
-
-    public Integer getYear() {
-        return year;
-    }
-
-    public String getImgUrl() {
-        return imgUrl;
-    }
-
-    public String getShortDescription() {
-        return shortDescription;
-    }
-
     public GameMinDTO(Game entity) {
         id = entity.getId();
         title = entity.getTitle();
