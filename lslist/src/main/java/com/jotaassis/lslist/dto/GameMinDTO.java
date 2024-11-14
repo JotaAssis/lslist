@@ -3,14 +3,14 @@ package com.jotaassis.lslist.dto;
 
 import com.jotaassis.lslist.entities.Game;
 
-public class GameMinDto {
+public class GameMinDTO {
     private Long id;
     private String title;
     private Integer year;
     private String imgUrl;
     private String shortDescription;
 
-    public GameMinDto() {
+    public GameMinDTO() {
     }
 
     public Long getId() {
@@ -33,7 +33,7 @@ public class GameMinDto {
         return shortDescription;
     }
 
-    public GameMinDto(Game entity) {
+    public GameMinDTO(Game entity) {
         id = entity.getId();
         title = entity.getTitle();
         year = entity.getYear();
