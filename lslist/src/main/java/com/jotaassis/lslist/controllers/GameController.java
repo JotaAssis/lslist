@@ -1,7 +1,6 @@
 package com.jotaassis.lslist.controllers;
 
 import com.jotaassis.lslist.dto.GameMinDTO;
-import com.jotaassis.lslist.entities.Game;
 import com.jotaassis.lslist.services.GameService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
